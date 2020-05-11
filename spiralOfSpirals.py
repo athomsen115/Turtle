@@ -7,8 +7,8 @@ turt.penup()
 ts = turtle.Screen()
 ts.bgcolor('black')
 
-sides = int(input("How many side do you want in your spiral? (2-6)"))
-colors = ['red', 'yellow', 'blue', 'green', 'purple', 'orange']
+sides = int(input("How many sides do you want in your spiral? (2-6)"))
+colors = ['purple', 'orange', 'blue', 'green', 'red', 'yellow']
 
 for i in range(50):
     turt.forward(i*4)
